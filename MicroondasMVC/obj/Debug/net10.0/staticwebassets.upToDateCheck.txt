@@ -1,0 +1,125 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\css\site.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\favicon.ico
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\js\site.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation\dist\additional-methods.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery-validation\LICENSE.md
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\dist\jquery.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\dist\jquery.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\dist\jquery.min.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\dist\jquery.slim.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
+G:\Peng Compartilhada\Projects\Microondas\MicroondasMVC\wwwroot\lib\jquery\LICENSE.txt

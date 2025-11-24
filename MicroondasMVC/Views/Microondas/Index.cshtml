@@ -1,0 +1,39 @@
+@model MicroondasMVC.Models.Microondas
+
+<h1>Micro-ondas</h1>
+
+<form asp-action="Iniciar" method="post">
+
+    <div>
+        <label>Tempo (em segundos):</label>
+        <input type="number" name="tempoSegundos" min="1" max="120" />
+    </div>
+
+    <div style="margin-top: 10px;">
+        <label>Potência (1 a 10):</label>
+        <input type="number" name="potencia" min="1" max="10" />
+    </div>
+
+    <button type="submit" style="margin-top: 15px;">Iniciar</button>
+</form>
+
+<hr />
+
+@if (!string.IsNullOrWhiteSpace(Model.MsgStatus))
+{
+    <p><strong>Status:</strong> @Model.MsgStatus</p>
+}
+
+@if (!string.IsNullOrEmpty(Model.IndicadorAquecimento))
+{
+    <p><strong>Processando:</strong></p>
+    <p style="font-size: 22px; font-family: monospace;">
+        @Model.IndicadorAquecimento
+    </p>
+}
+
+<hr />
+
+<h2>Configuração Atual:</h2>
+<p><b>Tempo:</b> @Model.TempoSegundos segundos</p>
+<p><b>Potência:</b> @Model.Potencia</p>
