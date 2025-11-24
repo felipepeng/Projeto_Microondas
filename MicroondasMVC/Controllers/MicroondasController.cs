@@ -9,7 +9,6 @@ namespace MicroondasMVC.Controllers
 
         public IActionResult Index()
         {
-            // Se o tempo estourou enquanto estava ligado (refresh de página tardio), desliga
             if (micro.Ligado && micro.TempoRestante <= 0)
             {
                 micro.Desligar();
@@ -24,10 +23,17 @@ namespace MicroondasMVC.Controllers
             return RedirectToAction("Index");
         }
 
+        // Ação específica para programas
+        [HttpPost]
+        public IActionResult IniciarPrograma(int idPrograma)
+        {
+            micro.IniciarPrograma(idPrograma);
+            return RedirectToAction("Index");
+        }
+
         [HttpPost]
         public IActionResult PausarCancelar()
         {
-            // Chama a nova lógica do Model
             micro.PausarOuCancelar();
             return RedirectToAction("Index");
         }
