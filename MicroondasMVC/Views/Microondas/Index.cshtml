@@ -4,13 +4,12 @@
 
 <div class="container" style="display: flex; gap: 20px; flex-wrap: wrap;">
     
-    <!-- LADO ESQUERDO: Controles Manuais e Visor -->
+    <!-- LADO ESQUERDO: Controles Manuais -->
     <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px; max-width: 600px; flex: 1;">
         
         <form asp-action="Iniciar" method="post" style="display: inline-block;">
             <div style="margin-bottom: 10px;">
                 <label>Tempo (segundos):</label>
-                <!-- Se for programa, exibe o tempo total, mas readonly -->
                 <input type="number" name="tempoSegundos" 
                        min="1" max="120" 
                        value="@(Model.Ligado || Model.Pausado ? Model.TempoRestante : (Model.TempoSegundos == 0 ? "" : Model.TempoSegundos))" 
@@ -26,11 +25,7 @@
                        @(Model.Ligado || Model.Pausado ? "readonly" : "") />
             </div>
 
-            <button type="submit" class="btn btn-success" @(Model.ProgramaAtivo != null && Model.Ligado ? "disabled" : "")>
-                @if(Model.Ligado) { <text>Acrescentar +30s</text> }
-                else if(Model.Pausado) { <text>Retomar</text> }
-                else { <text>Iniciar Aquecimento Manual</text> }
-            </button>
+            <button type="submit" class="btn btn-success" @(Model.ProgramaAtivo != null && Model.Ligado ? "disabled" : "")>Iniciar / +30s</button>
         </form>
 
         <form asp-action="PausarCancelar" method="post" style="display: inline-block; margin-left: 10px;">
@@ -68,24 +63,37 @@
         </div>
     </div>
 
-    <!-- LADO DIREITO: Programas Pré-definidos -->
+    <!-- LADO DIREITO: Lista de Programas -->
     <div style="border: 1px solid #007bff; padding: 20px; border-radius: 10px; min-width: 300px; background-color: #f8f9fa;">
-        <h4 style="color: #007bff;">Programas</h4>
-        <p><small>Selecione um alimento para auto-iniciar:</small></p>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 style="color: #007bff; margin: 0;">Programas</h4>
+            <a href="/Microondas/Cadastro" class="btn btn-sm btn-primary">+ Novo</a>
+        </div>
         
-        <div class="list-group">
-            @foreach (var prog in MicroondasMVC.Models.Microondas.Programas)
+        <p><small>Selecione um alimento:</small></p>
+        
+        <div class="list-group" style="max-height: 500px; overflow-y: auto;">
+            @foreach (var prog in MicroondasMVC.Models.Microondas.TodosProgramas)
             {
                 <form asp-action="IniciarPrograma" method="post" style="margin-bottom: 5px;">
                     <input type="hidden" name="idPrograma" value="@prog.Id" />
+                    
                     <button type="submit" class="list-group-item list-group-item-action" 
                             style="cursor: pointer;"
                             @(Model.Ligado || Model.Pausado ? "disabled" : "")>
+                        
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">@prog.Nome</h5>
+                            <!-- Estilo itálico se for customizado -->
+                            <h5 class="mb-1" style="@(prog.EhCustomizado ? "font-style: italic; color: #6f42c1;" : "")">
+                                @prog.Nome
+                            </h5>
                             <small>@prog.Tempo s</small>
                         </div>
-                        <p class="mb-1">@prog.Alimento</p>
+                        
+                        <p class="mb-1" style="@(prog.EhCustomizado ? "font-style: italic;" : "")">
+                            @prog.Alimento
+                        </p>
+                        
                         <small>Potência: @prog.Potencia | Char: '@prog.CaractereAquecimento'</small>
                     </button>
                 </form>
@@ -100,7 +108,7 @@
     let estaLigado = @Model.Ligado.ToString().ToLower();
     let estaPausado = @Model.Pausado.ToString().ToLower();
     
-    
+    // Garante que o caractere seja interpretado corretamente pelo JS
     let caractereAquecimento = "@Html.Raw(Model.CaractereAtual)";
 
     if (estaLigado && tempoRestante > 0) {
@@ -123,11 +131,9 @@
 
     function atualizarVisor(segundos, potencia, char) {
         let linha = "";
-        // Cria a string repetindo o caractere específico do programa
         for (let i = 0; i < segundos; i++) {
             linha += char.repeat(potencia) + " ";
         }
-        
         document.getElementById("processamento").textContent = linha;
         document.getElementById("timerDisplay").textContent = formatarTempoJs(segundos);
     }
@@ -138,15 +144,12 @@
 
         let intervalo = setInterval(() => {
             contador--;
-
             if (contador > 0) {
                 atualizarVisor(contador, potencia, char);
             } else {
                 clearInterval(intervalo);
-                
                 document.getElementById("timerDisplay").textContent = "0s";
                 document.getElementById("processamento").textContent = "Aquecimento concluído";
-
                 notificarFimAoServidor();
             }
         }, 1000);

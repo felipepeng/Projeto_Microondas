@@ -195,3 +195,4 @@ G:\Peng Compartilhada\Repositories\Projeto_Microondas\MicroondasMVC\obj\Debug\ne
 G:\Peng Compartilhada\Repositories\Projeto_Microondas\MicroondasMVC\obj\Debug\net10.0\MicroondasMVC.pdb
 G:\Peng Compartilhada\Repositories\Projeto_Microondas\MicroondasMVC\obj\Debug\net10.0\MicroondasMVC.genruntimeconfig.cache
 G:\Peng Compartilhada\Repositories\Projeto_Microondas\MicroondasMVC\obj\Debug\net10.0\ref\MicroondasMVC.dll
+G:\Peng Compartilhada\Repositories\Projeto_Microondas\MicroondasMVC\bin\Debug\net10.0\programas_customizados.json

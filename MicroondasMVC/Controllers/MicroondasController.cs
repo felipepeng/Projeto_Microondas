@@ -1,5 +1,6 @@
 ﻿using MicroondasMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace MicroondasMVC.Controllers
 {
@@ -16,6 +17,43 @@ namespace MicroondasMVC.Controllers
             return View(micro);
         }
 
+        // --- Cadastro ---
+
+        [HttpGet]
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SalvarPrograma(ProgramaAquecimento novoPrograma)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Cadastro", novoPrograma);
+            }
+
+            // Validação: Caractere '.' é reservado
+            if (novoPrograma.CaractereAquecimento == '.')
+            {
+                ModelState.AddModelError("CaractereAquecimento", "O caractere '.' é reservado para o modo padrão.");
+                return View("Cadastro", novoPrograma);
+            }
+
+            // Validação: Caractere único em relação a TODOS os programas
+            var todos = Microondas.TodosProgramas;
+            if (todos.Any(p => p.CaractereAquecimento == novoPrograma.CaractereAquecimento))
+            {
+                ModelState.AddModelError("CaractereAquecimento", $"O caractere '{novoPrograma.CaractereAquecimento}' já está em uso.");
+                return View("Cadastro", novoPrograma);
+            }
+
+            Microondas.AdicionarCustomizado(novoPrograma);
+            return RedirectToAction("Index");
+        }
+
+        // --- Operações ---
+
         [HttpPost]
         public IActionResult Iniciar(int? tempoSegundos, int? potencia)
         {
@@ -23,7 +61,6 @@ namespace MicroondasMVC.Controllers
             return RedirectToAction("Index");
         }
 
-        // Ação específica para programas
         [HttpPost]
         public IActionResult IniciarPrograma(int idPrograma)
         {
