@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Peng Compartilhada\\Projects\\Microondas\\MicroondasMVC\\MicroondasMVC.csproj": {}
+    "G:\\Peng Compartilhada\\Repositories\\Projeto_Microondas\\MicroondasMVC\\MicroondasMVC.csproj": {}
   },
   "projects": {
-    "G:\\Peng Compartilhada\\Projects\\Microondas\\MicroondasMVC\\MicroondasMVC.csproj": {
+    "G:\\Peng Compartilhada\\Repositories\\Projeto_Microondas\\MicroondasMVC\\MicroondasMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Peng Compartilhada\\Projects\\Microondas\\MicroondasMVC\\MicroondasMVC.csproj",
+        "projectUniqueName": "G:\\Peng Compartilhada\\Repositories\\Projeto_Microondas\\MicroondasMVC\\MicroondasMVC.csproj",
         "projectName": "MicroondasMVC",
-        "projectPath": "G:\\Peng Compartilhada\\Projects\\Microondas\\MicroondasMVC\\MicroondasMVC.csproj",
+        "projectPath": "G:\\Peng Compartilhada\\Repositories\\Projeto_Microondas\\MicroondasMVC\\MicroondasMVC.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "G:\\Peng Compartilhada\\Projects\\Microondas\\MicroondasMVC\\obj\\",
+        "outputPath": "G:\\Peng Compartilhada\\Repositories\\Projeto_Microondas\\MicroondasMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
