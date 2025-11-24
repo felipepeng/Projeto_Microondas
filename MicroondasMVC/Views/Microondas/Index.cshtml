@@ -14,7 +14,6 @@
                        min="1" max="120" 
                        value="@(Model.Ligado || Model.Pausado ? Model.TempoRestante : (Model.TempoSegundos == 0 ? "" : Model.TempoSegundos))" 
                        @(Model.Ligado || Model.Pausado ? "readonly" : "") />
-                <small class="text-muted d-block">Máx manual: 120s</small>
             </div>
 
             <div style="margin-bottom: 10px;">
@@ -28,7 +27,7 @@
             <button type="submit" class="btn btn-success" @(Model.ProgramaAtivo != null && Model.Ligado ? "disabled" : "")>Iniciar / +30s</button>
         </form>
 
-        <form asp-action="PausarCancelar" method="post" style="display: inline-block; margin-left: 10px;">
+        <form asp-action="PausarCancelar" method="post" style="display: inline-block; margin-left: 6px;">
             <button type="submit" class="btn btn-warning">
                 Pausar / Cancelar
             </button>

@@ -42,8 +42,7 @@
               "RelativeToolTip": "programas_customizados.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T06:59:33.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T06:59:33.805Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Views\\Microondas\\Cadastro.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-24T06:54:02.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T06:54:02.617Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "Views\\Microondas\\Index.cshtml",
               "ToolTip": "G:\\Peng Compartilhada\\Repositories\\Projeto_Microondas\\MicroondasMVC\\Views\\Microondas\\Index.cshtml",
               "RelativeToolTip": "Views\\Microondas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-24T05:58:17.414Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Controllers\\MicroondasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:45:32.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T22:45:32.08Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Models\\Microondas.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:43:43.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T22:43:43.337Z"
             }
           ]
         }
